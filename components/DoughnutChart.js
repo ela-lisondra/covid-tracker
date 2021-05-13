@@ -9,7 +9,7 @@ export default function DoughnutChart({stats}){
 
             datasets: [{
                 data: [criticals, recovered, deaths],
-                backgroundColor: ["red", "green", "black","orange"]
+                backgroundColor: ["red", "green", "black",]
             }],
 
             labels: [
