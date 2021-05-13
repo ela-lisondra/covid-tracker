@@ -16,7 +16,7 @@ export default function DoughnutChart({stats}){
                 'Criticals',
                 'Recoveries',
                 'Deaths',
-                'Total Cases'
+                // 'Total Cases'
             ]
         }}
         />
