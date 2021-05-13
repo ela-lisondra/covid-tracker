@@ -1,0 +1,31 @@
+
+
+
+
+npm install react-chartjs-2 chart.js
+6. import {Pie} from 'react-chartjs-2' in topTen.js
+7. import {Fragment} from 'react' in topTen.js
+8. 
+    return(
+        <Fragment>
+          <h1>Top Ten Countries Per Cases</h1>
+          <Pie
+            data={{
+              datasets:[{
+                data: [500,600,700],
+                backgroundColor: ["red", "green", "blue"]
+              }],
+                labels: ["1st", "2nd", "3rd"]
+            }} 
+          />
+        </Fragment>
+    )
+}
+
+9.create allCountries.js in pages
+10. import getStaticProps() to fetch data
+11. return data as props and destruct in params, console.log(data)
+---
+12. create [id].js in pages
+13. export default
+

@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* .navbar{
+  background-color: #1e2749;
+  color: #fafaff;
+} */
+
+#nav {
+  background-color: rgb(193, 219, 140);
+  color: #fafaff;
+  height: 30%;
+}
+
+.container {
+  padding: 40px 0;
+}
+
+h1 {
+  padding-bottom: 16px;
+}
+
+.btn {
+  background-color: black;
+  margin-bottom: 20px;
+}
